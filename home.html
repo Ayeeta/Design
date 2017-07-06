@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>google</title>
+    <style>
+        .g_logo {
+            position: relative;
+            top: 155px;
+            left: 38%;
+            height: 150px;
+            width: 400px;
+            /* border-bottom: red;
+            border-bottom-style: solid;*/
+        }
+        
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+        
+        .search {
+            position: relative;
+            top: 155px;
+            left: 25%;
+            height: 50px;
+            width: 700px;
+            /*border-style: solid;*/
+        }
+        
+         ::-webkit-input-placeholder {
+            /* WebKit browsers */
+            color: lightgray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+         :-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: lightgray;
+            ;
+        }
+        
+         ::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: lightgray;
+            ;
+        }
+        
+         :-ms-input-placeholder {
+            /* Internet Explorer 10+ */
+            color: lightgray;
+            ;
+        }
+        
+        input {
+            border: none;
+            padding: 10px;
+            margin: 10px;
+            /*height: 20px;
+            width: 500px;*/
+            height: 20px;
+            width: 600px;
+            border: 1px solid lightgray;
+            outline: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        
+        input:hover {
+            border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+        }
+        
+        input:focus {
+            border-color: #4d90fe;
+        }
+        
+        input[type="submit"] {
+            border-radius: 2px;
+            background: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            color: #757575;
+            cursor: default;
+            font-size: 14px;
+            font-weight: bold;
+            width: 150px;
+            padding: 0 16px;
+            height: 36px;
+        }
+        
+        input[type="submit"]:hover {
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+            background: #f8f8f8;
+            border: 1px solid #c6c6c6;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+            color: #222;
+        }
+        
+        .txtsearchBox {
+            position: relative;
+            top: 0px;
+            left: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        }
+        
+        .btn {
+            position: relative;
+            /* color: red;*/
+            top: 180px;
+            left: 500px;
+            height: 80px;
+            width: 350px;
+            /* border-bottom: red;
+            border-style: solid;*/
+        }
+        
+        .gmail {
+            position: relative;
+            top: 10px;
+            left: 1100px;
+            height: 20px;
+            width: 200px;
+            /* border-bottom: red;
+            border-style: solid;*/
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            color: gray;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gmail">Gmail &nbsp&nbsp&nbsp&nbsp Images</div>
+    <div class="g_logo">
+        <img src="./g_img.jpg">
+    </div>
+    <div class="search">
+        <input class="txtsearchBox" type="text" placeholder="Search Google or type URL" x-webkit-speech="x-webkit-speech" />
+        <form></form>
+    </div>
+    <div class="btn">
+        <input type="submit" value="Google Search">
+        <input type="submit" value="I'm Feeling Lucky">
+    </div>
+
+</body>
+
+</html>
